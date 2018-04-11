@@ -1,5 +1,5 @@
 extVirtualLinks:
-    - {id: vims-mgmt-net, resourceId: 387555a4-ecaa-46fe-bfd9-1a0e37525940, extCps: [{cpdId: bono_mgmt_ext}, {cpdId: homer_mgmt_ext}, {cpdId: ellis_mgmt_ext}, {cpdId: stress_mgmt_ext}, {cpdId: ns_mgmt_ext}, {cpdId: homestead_mgmt_ext}, {cpdId: ralf_mgmt_ext}, {cpdId: sprout_mgmt_ext}]}
+    - {id: vims-mgmt-net, resourceId: 387555a4-ecaa-46fe-bfd9-1a0e37525940, extCps: [{cpdId: bono_mgmt_ext}, {cpdId: homestead_mgmt_ext}, {cpdId: ellis_mgmt_ext}, {cpdId: stress_mgmt_ext}, {cpdId: ns_mgmt_ext}, {cpdId: ralf_mgmt_ext}, {cpdId: sprout_mgmt_ext}, {cpdId: homer_mgmt_ext}]}
 vimConnectionInfo:
     - {accessInfo: {tenant: 9adb323da00048b7a4298c005db87320}, vimId: 58d32d09-a815-4d81-bbb7-86c00ece4ddc}
 additionalParams:
@@ -21,7 +21,7 @@ additionalParams:
     snmp_listener_ip: 10.234.30.14
     ntp_server: 10.112.1.2
     ns_02: 10.112.1.2
-    Internal_VL_subnet_address: 192.168.14.0/24
+    Internal_VL_subnet_address: 192.168.74.0/24
 flavourId: default
 instantiationLevelId: InstantiationLevel1
 shared: false
