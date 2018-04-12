@@ -23,4 +23,4 @@ additionalParams:
     Internal_VL_subnet_address: 192.168.56.0/24
 flavourId: default
 instantiationLevelId: InstantiationLevel1
-shared: false
+shared: true
