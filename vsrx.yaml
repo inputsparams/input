@@ -1,0 +1,20 @@
+extVirtualLinks:
+    - {id: left-net, resourceId: 5d9a038c-7289-42f9-a7b4-3a99181c1bc6, extCps: [{cpdId: left_ext_cp}]}
+    - {id: right-net, resourceId: 818c7c30-ea83-496b-8c45-45a49d4de02d, extCps: [{cpdId: right_ext_cp}]}
+    - {id: mgmt-net, resourceId: 42ab594c-b32c-4cec-8df6-f6a668605107, extCps: [{cpdId: mgmt_ext_cp}]}
+vimConnectionInfo:
+    - {accessInfo: {tenant: 9adb323da00048b7a4298c005db87320}, vimId: cf4cffc8-c1f5-4351-bf1f-463112fdacd4}
+additionalParams:
+    floating_network_id: 86c0884b-35ec-4acc-80ea-c180aa3a9df1
+    right_aap: [{mode: lol, ip: 192.168.136.1/24, mac: 'aa:aa:aa:aa:aa:aa'}]
+    password: Netcracker
+    port: '830'
+    snmp_listener_port: '30976'
+    snmp_listener_ip: 10.101.17.89
+    username: nc
+flavourId: default
+instantiationLevelId: instantiationLevel1
+resourceZones:
+    nova-2: [vSRX]
+name: grvfdg
+description: gfdd
