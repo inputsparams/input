@@ -7,10 +7,10 @@ vimConnectionInfo:
 additionalParams:
     floating_network_id: 86c0884b-35ec-4acc-80ea-c180aa3a9df1
     right_aap: [{mode: lol, ip: 192.168.136.1/24, mac: 'aa:aa:aa:aa:aa:aa'}]
-    left_aap: [{mode: lol, ip: 192.168.136.1/24, mac: 'aa:aa:aa:aa:aa:aa'}]
     password: Netcracker
     port: '830'
     snmp_listener_port: '30976'
+    left_aap: [{mode: trg, ip: tgew, mac: wetygrwg}]
     snmp_listener_ip: 10.101.17.89
     username: nc
 flavourId: default
