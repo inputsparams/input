@@ -1,0 +1,18 @@
+vimConnectionInfo:
+    - {accessInfo: {tenant: 23e81352196c4e4ea2094175cd7f280d}, vimId: 8cfdf29c-4442-42a2-bfbc-d0f77b1a8abe}
+extVirtualLinks:
+    - {id: ext-net, resourceId: e96a0af2-c9d0-4a33-ae42-2993bf6fc8cc, extCps: [{cpdId: left_ext_cp}, {cpdId: right_ext_cp}, {cpdId: mgmt_ext_cp}]}
+additionalParams:
+    floating_network_id: null
+    packageId: 5ba09e05181e8900011d7b53
+    username: nc
+    password: Netcracker
+    port: '830'
+    snmp_listener_ip: 10.101.17.89
+    snmp_listener_port: '30976'
+flavourId: default
+instantiationLevelId: instantiationLevel1
+resourceZones: {}
+extManagedVirtualLinks: []
+name: 'Juniper vSRX Simple NS'
+description: test
