@@ -1,0 +1,16 @@
+vimConnectionInfo:
+    - {accessInfo: {tenant: 23e81352196c4e4ea2094175cd7f280d}, vimId: 93cccccc-9393-1111-1111-111111111111}
+extVirtualLinks:
+    - {id: mgmt-net, resourceId: 9c7e48a6-efb4-4afd-b5bf-3291e31de51f, extCps: [{cpdId: sprout_mgmt_ext_cp}, {cpdId: homer_mgmt_ext_cp}, {cpdId: bono_mgmt_ext_cp}]}
+additionalParams:
+    floating_network_id: e96a0af2-c9d0-4a33-ae42-2993bf6fc8cc
+    packageId: 5bb5b90542337b0001ce0fae
+    internal_VL.cidr_v4: ""
+flavourId: default
+instantiationLevelId: instantiationLevel1
+resourceZones: {}
+extManagedVirtualLinks: []
+shares:
+    - {tenantId: 6cc105a2-2c7e-496c-adfd-e7850fcdad17, shareLevel: SHARED_RO}
+name: cirros_for_sg_test
+description: test
