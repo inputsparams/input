@@ -3,7 +3,7 @@ vimConnectionInfo:
 extVirtualLinks:
     - {id: mgmt-net, resourceId: 9c7e48a6-efb4-4afd-b5bf-3291e31de51f, extCps: [{cpdId: sprout_mgmt_ext_cp}, {cpdId: homer_mgmt_ext_cp}, {cpdId: bono_mgmt_ext_cp}]}
 additionalParams:
-    floating_network_id: null
+    floating_network_id: e96a0af2-c9d0-4a33-ae42-2993bf6fc8cc
     packageId: 5bb5b90542337b0001ce0fae
     internal_VL.cidr_v4: ""
 flavourId: default
